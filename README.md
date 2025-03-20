@@ -16,8 +16,8 @@ Antes de rodar o projeto, verifique se o Go está instalado na sua máquina. Cas
 
 1. Clone este repositório:
     ```bash
-    git clone git@github.com:mateusmfr/targetsistemas.git
-    cd targetsistemas
+    git clone git@github.com:mateusmfr/targetsistemasAPI.git
+    cd targetsistemasAPI
     ```
 
 2. Instale as dependências necessárias:
