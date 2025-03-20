@@ -15,6 +15,7 @@ type Faturamento struct {
 }
 
 func N1(log *strings.Builder) {
+	fmt.Fprintln(log, "N1")
 	INDICE := 13
 	SOMA := 0
 	K := 0
@@ -28,6 +29,7 @@ func N1(log *strings.Builder) {
 }
 
 func N2(log *strings.Builder) {
+	fmt.Fprintln(log, "N2")
 	numeros := []int{8, 10, 21}
 
 	for _, num := range numeros {
@@ -51,6 +53,7 @@ func pertenceFibonacci(n int) bool {
 }
 
 func N3(log *strings.Builder) {
+	fmt.Fprintln(log, "N3")
 	faturamentos := carregarDados("dados.json")
 
 	menor, maior := calcularMenorMaiorFaturamento(faturamentos)
@@ -132,12 +135,13 @@ func calcularDiasAcimaMedia(faturamentos []Faturamento) int {
 }
 
 func N4(log *strings.Builder) {
+	fmt.Fprintln(log, "N4")
 	faturamentos := []float64{67836.43, 36678.66, 29229.88, 27165.48, 19849.53}
 	estados := []string{"SP", "RJ", "MG", "ES", "Outros"}
 
 	total := calcularTotal(faturamentos)
 
-	fmt.Println("Percentual de representação por estado:")
+	fmt.Fprintln(log, "Percentual de representação por estado:")
 	for i, valor := range faturamentos {
 		percentual := (valor / total) * 100
 		fmt.Fprintf(log, "%s: %.2f%%\n", estados[i], percentual)
@@ -153,6 +157,7 @@ func calcularTotal(valores []float64) float64 {
 }
 
 func N5(log *strings.Builder) {
+	fmt.Fprintln(log, "N5")
 	str := "Target Sistemas"
 	invertida := inverterString(str)
 
