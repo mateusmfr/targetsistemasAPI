@@ -43,22 +43,22 @@ Você pode testar a API usando ferramentas como [Postman](https://www.postman.co
 
 2. **Sequência de Fibonacci**:
     ```bash
-    curl http://localhost:8080/n2
+    http://localhost:8080/n2
     ```
 
 3. **Faturamento Diário**:
     ```bash
-    curl http://localhost:8080/n3
+    http://localhost:8080/n3
     ```
 
 4. **Percentual de Faturamento por Estado**:
     ```bash
-    curl http://localhost:8080/n4
+    http://localhost:8080/n4
     ```
 
 5. **Inversão de String**:
     ```bash
-    curl http://localhost:8080/n5
+    http://localhost:8080/n5
     ```
 
 ## Observação:
