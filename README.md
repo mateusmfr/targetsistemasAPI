@@ -64,3 +64,9 @@ Você pode testar a API usando ferramentas como [Postman](https://www.postman.co
 ## Observação:
 
 Durante o desenvolvimento desta API, optei por usar o método w.Write para exibir as respostas diretamente na tela. Essa decisão foi tomada devido ao tempo limitado para o desenvolvimento. Caso eu tivesse optado por retornar as respostas no formato JSON, talvez eu não conseguiria concluir o projeto dentro do prazo estipulado.
+
+## 🗣 Me dê um feedback!
+
+Ficarei muito grato se você puder compartilhar seu feedback sobre este projeto. Seu retorno é essencial para o meu aprendizado e aprimoramento contínuo. Se você tiver qualquer sugestão, crítica construtiva ou comentário, por favor, não hesite em entrar em contato comigo.
+
+Meu email: `mateus.mfr10@gmail.com`
